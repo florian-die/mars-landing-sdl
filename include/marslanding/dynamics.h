@@ -5,37 +5,37 @@
 
 #include <string.h>
 
-const double FORWARD_TIME_STEP;
+const extern double FORWARD_TIME_STEP;
 
-const double DRY_MASS;
-const double WET_MASS;
-const double ISP;
-const int NB_THRUSTERS;
-const double T_1, T_2, T_bar;
-const double PHI;
+const extern double DRY_MASS;
+const extern double WET_MASS;
+const extern double ISP;
+const extern int NB_THRUSTERS;
+const extern double T_1, T_2, T_bar;
+const extern double PHI;
 
-const double MARS_GRAVITY;
-const double EARTH_GRAVITY;
+const extern double MARS_GRAVITY;
+const extern double EARTH_GRAVITY;
 
-const double STATE_DIM;
-const int PX, PZ, VX, VZ, M;
+const extern double STATE_DIM;
+const extern int PX, PZ, VX, VZ, M;
 const extern char* STATE_NAMES[];
 const extern char* STATE_UNITS[];
 
 const extern double INITIAL_STATE[];
 
-struct state_list_t * state_list;
+extern struct state_list_t * state_list;
 
-double current_thrust_x;
-double current_thrust_z;
-double current_thrust_norm;
+extern double current_thrust_x;
+extern double current_thrust_z;
+extern double current_thrust_norm;
 
-double cos_phi;
-double alpha;
-double rho_1, rho_2;
+extern double cos_phi;
+extern double alpha;
+extern double rho_1, rho_2;
 
-bool is_dry;
-bool is_grounded;
+extern bool is_dry;
+extern bool is_grounded;
 
 // Non-const copy of initial state
 double* copy_initial_state();

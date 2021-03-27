@@ -15,6 +15,8 @@ SDL_Joystick* gamepad = NULL;
 const Sint16 MAX_JOYSTICK_AXIS_VALUE = 32767; 
 const bool JOY_MANDATORY = true;
 
+struct timer_t timer;
+
 // Initialize SDL, the window and the screen
 bool init_sdl()
 {

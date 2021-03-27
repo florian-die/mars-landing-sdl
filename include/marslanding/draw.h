@@ -5,22 +5,22 @@
 
 #include "marslanding/state_list.h"
 
-const int WINDOW_MARGIN;
+const  extern int WINDOW_MARGIN;
 
-const int SCENE_X, SCENE_Y, SCENE_WIDTH, SCENE_HEIGHT;
-const double SCENE_MAX_Z, SCENE_MIN_X, SCENE_MAX_X;
+const extern int SCENE_X, SCENE_Y, SCENE_WIDTH, SCENE_HEIGHT;
+const extern double SCENE_MAX_Z, SCENE_MIN_X, SCENE_MAX_X;
 
-int scene_x, scene_y, scene_width, scene_height;
-double scene_delta_x, scene_delta_z;
+extern int scene_x, scene_y, scene_width, scene_height;
+double extern scene_delta_x, scene_delta_z;
 
-const int GROUND_R, GROUND_G, GROUND_B, GROUND_A;
+const extern int GROUND_R, GROUND_G, GROUND_B, GROUND_A;
 
-const int TRAJ_R, TRAJ_G, TRAJ_B, TRAJ_A;
+const extern int TRAJ_R, TRAJ_G, TRAJ_B, TRAJ_A;
 
-const double VELOCITY_DRAW_FACTOR;
-const double THRUST_DRAW_FACTOR;
+const extern double VELOCITY_DRAW_FACTOR;
+const extern double THRUST_DRAW_FACTOR;
 
-const int SQUARE_WIDTH;
+const extern int SQUARE_WIDTH;
 
 void init_scene();
 

@@ -1,5 +1,7 @@
 cmake_minimum_required(VERSION 3.0.0)
 
+set(CMAKE_C_STANDARD 11)
+
 project(marslanding)
 
 find_package(SDL2 REQUIRED)
@@ -26,3 +28,5 @@ target_include_directories(marslanding
 )
 
 target_link_libraries(marslanding ${SDL2_LIBRARIES})
+
+target_link_libraries(marslanding m)

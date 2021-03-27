@@ -5,18 +5,18 @@
 #include <stdbool.h> 
 
 // Game state
-bool GAME_PAUSED;
-bool GAME_OVER;
-bool QUIT;
+bool extern GAME_PAUSED;
+bool extern GAME_OVER;
+bool extern QUIT;
 
-bool PREDICT;
+bool extern PREDICT;
 
-double joy_thrust_x;
-double joy_thrust_z;
-double joy_thrust_n;
+double extern joy_thrust_x;
+double extern joy_thrust_z;
+double extern joy_thrust_n;
 
 // Generic SDL Event for PollEvent loop
-SDL_Event event;
+extern SDL_Event event;
 
 int init_game();
 

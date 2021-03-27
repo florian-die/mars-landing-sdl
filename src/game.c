@@ -18,6 +18,8 @@ double joy_thrust_x = 0.0;
 double joy_thrust_z = 0.0;
 double joy_thrust_n = 0.0;
 
+SDL_Event event;
+
 int init_game()
 {
     print_start_ascii();

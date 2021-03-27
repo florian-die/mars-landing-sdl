@@ -5,17 +5,17 @@
 #include <stdbool.h> 
 
 // Main window 
-SDL_Window *window;
+extern SDL_Window *window;
 
 // Main screen
-SDL_Renderer *screen;
-const int SCREEN_WIDTH;  
-const int SCREEN_HEIGHT;
+extern SDL_Renderer *screen;
+const extern int SCREEN_WIDTH;  
+const extern int SCREEN_HEIGHT;
 
 // Gamepad 
-SDL_Joystick* gamepad;
-const Sint16 MAX_JOYSTICK_AXIS_VALUE;
-const bool JOY_MANDATORY;
+extern SDL_Joystick* gamepad;
+const extern Sint16 MAX_JOYSTICK_AXIS_VALUE;
+const extern bool JOY_MANDATORY;
 
 // Timer
 struct timer_t
@@ -23,7 +23,7 @@ struct timer_t
     Uint32 current_tick;
     Uint32 previous_tick;
 };
-struct timer_t timer;
+extern struct timer_t timer;
 
 // Initialize SDL, the window and the screen
 bool init_sdl();
