@@ -1,5 +1,6 @@
 #include <stdio.h>
-#include "sdl_utils.h"
+
+#include "marslanding/sdl_utils.h"
 
 // Main window 
 SDL_Window *window = NULL;

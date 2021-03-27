@@ -1,7 +1,7 @@
-#include "dynamics.h"
+#include "marslanding/dynamics.h"
 
-#include "sdl_utils.h"
-#include "game.h"
+#include "marslanding/sdl_utils.h"
+#include "marslanding/game.h"
 
 #include <SDL2/SDL.h>
 #include <stdlib.h> 

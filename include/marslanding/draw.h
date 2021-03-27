@@ -3,7 +3,7 @@
 
 #include <stdbool.h> 
 
-#include "state_list.h"
+#include "marslanding/state_list.h"
 
 const int WINDOW_MARGIN;
 

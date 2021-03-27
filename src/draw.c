@@ -1,9 +1,9 @@
-#include "draw.h"
+#include "marslanding/draw.h"
 
-#include "sdl_utils.h"
-#include "dynamics.h"
-#include "state_list.h"
-#include "game.h"
+#include "marslanding/sdl_utils.h"
+#include "marslanding/dynamics.h"
+#include "marslanding/state_list.h"
+#include "marslanding/game.h"
 
 #include <SDL2/SDL.h>
 #include <stddef.h>

@@ -1,7 +1,7 @@
 #ifndef __DYNAMICS__
 #define __DYNAMICS__
 
-#include "state_list.h"
+#include "marslanding/state_list.h"
 
 #include <string.h>
 
