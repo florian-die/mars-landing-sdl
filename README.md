@@ -25,6 +25,12 @@ make
 
 Use `cmake-gui` to configure and generate in a separate build folder, then `make` and `./marslanding`
 
+### Windows
+
+Follow https://trenki2.github.io/blog/2017/06/02/using-sdl2-with-cmake/ to link SDL2 using CMake.
+
+Build using your favorite IDE. Copy the SDL2.dll file alongside the executable.
+
 ## Gamepad configuration 
 
 ### Xbox one gamepad configuration
@@ -101,3 +107,4 @@ Current state (t=21.95s)
 
 ## References
 
+ACIKMESE, Behcet et PLOEN, Scott R. Convex programming approach to powered descent guidance for mars landing. Journal of Guidance, Control, and Dynamics, 2007, vol. 30, no 5, p. 1353-1366.
