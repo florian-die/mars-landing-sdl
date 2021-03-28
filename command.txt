@@ -1,1 +1,0 @@
-gcc -Wall -pedantic -o marslanding.x main.c sdl_utils.c game.c dynamics.c draw.c state_list.c -lm -lSDL2 -ggdb
