@@ -29,4 +29,7 @@ target_include_directories(marslanding
 
 target_link_libraries(marslanding ${SDL2_LIBRARIES})
 
-target_link_libraries(marslanding m)
+
+if (UNIX)
+  target_link_libraries(marslanding m)
+endif (UNIX)
